@@ -13,6 +13,10 @@ class Bounds(private val limit: Position) {
         return xCoordinate > LOWER_LIMIT
     }
 
+    fun greaterThanYLowerLimit(yCoordinate: Int): Boolean {
+        return yCoordinate > LOWER_LIMIT
+    }
+
     companion object {
         val LOWER_LIMIT = 0
     }
