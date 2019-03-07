@@ -118,7 +118,35 @@ class RobotTest {
         //Then Turn North And Move forward beyond the Southern Boundary
         robot.move("RFFFFFF")
 
-        println(robot.position)
+        // println(robot.position)
         assertEquals(true,robot.isPosition(1, 0))
+    }
+
+    //Test 13: Test the robot checks for previously lost robots , to prevent it from being lost
+    @Test
+    fun tesRobotChecksForPreviousLostRobots() {
+
+        // Given 3 Robots, if the second robot is lost,
+        // the third robot will checks for previously lost robots ,
+        // to prevent it from being lost
+
+        val robot1 = Robot(bounds, Position(1,1), Direction.Companion.EAST)
+        val robot2 = Robot(bounds, Position(3,2), Direction.Companion.NORTH)
+        val robot3 = Robot(bounds, Position(0,3), Direction.Companion.WEST)
+
+        robot1.move("RFFFFFF")
+
+        robot2.move("FRRFLLFFRRFLL")
+
+        robot3.move("LLFFFLFLFL")
+
+        assertEquals(true,robot1.isPosition(1, 1))
+        assertEquals(true,robot1.isDirection(Direction.Companion.EAST))
+        assertEquals(true,robot2.isPosition(3, 3))
+        assertEquals(true,robot2.isDirection(Direction.Companion.NORTH))
+        assertEquals(true,robot2.isLost())
+        assertEquals(true,robot3.isPosition(2, 3))
+        assertEquals(true,robot3.isDirection(Direction.Companion.SOUTH))
+
     }
 }
