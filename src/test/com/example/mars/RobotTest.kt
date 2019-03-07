@@ -77,7 +77,7 @@ class RobotTest {
     //Test 9: Test the robot doesn't move beyond West Bound
     @Test
     fun tesRobotDoeNotMoveBeyondWestBound() {
-        //Given the Robot is Facing East
+        //Given the Robot is Facing East, starting at co-ordinates ( 1, 1 )
 
         //Then Turn West And Move forward beyond the Western Boundary
         robot.move("RRFFFFFF")
@@ -89,7 +89,7 @@ class RobotTest {
     //Test 10: Test the robot doesn't move beyond East Bound
     @Test
     fun tesRobotDoeNotMoveBeyondEastBound() {
-        //Given the Robot is Facing East
+        //Given the Robot is Facing East, starting at co-ordinates ( 1, 1 )
 
         //Then Turn West And Move forward beyond the Eastern Boundary
         robot.move("FFFFFF")
@@ -98,4 +98,15 @@ class RobotTest {
         assertEquals(true,robot.isPosition(5, 1))
     }
 
+    //Test 11: Test the robot doesn't move beyond North Bound
+    @Test
+    fun tesRobotDoeNotMoveBeyondNorthBound() {
+        //Given the Robot is Facing East, starting at co-ordinates ( 1, 1 )
+
+        //Then Turn North And Move forward beyond the Northen Boundary
+        robot.move("LFFFFFF")
+
+        println(robot.position)
+        assertEquals(true,robot.isPosition(1, 3))
+    }
 }
