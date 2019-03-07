@@ -9,3 +9,8 @@ y-coordinate) and an orientation (N, S, E, W for north, south, east, and west).
 1. I used TDD, to drive the functionality
 2. Kotlin language was used.
 3. I have created separate tests, to allow for independent testing of other classes outside of the Robot class.
+4. All functionality was completed.
+
+TO DO:
+
+1. To configure the project to use Junit 5 to allow for better degree of testing.
