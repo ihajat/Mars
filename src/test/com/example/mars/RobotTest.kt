@@ -15,8 +15,16 @@ class RobotTest {
         assertEquals(true,robot.isDirection(Direction.Companion.NORTH))
     }
 
+    //Test 2: Test the robot direction is not facing a different direction to what was passed to it
     @Test
     fun testFalseDirectionReturnsFalse() {
+        assertEquals(false,robot.isDirection(Direction.Companion.EAST))
+    }
+
+    //Test 3: Test the robot direction is correct after turning right
+    @Test
+    fun testRobotDirectionCorrectAfterTurningRight() {
+        robot.move("R")
         assertEquals(false,robot.isDirection(Direction.Companion.EAST))
     }
 }
