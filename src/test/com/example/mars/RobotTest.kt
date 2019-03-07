@@ -18,27 +18,27 @@ class RobotTest {
     //Test 1: Test the robot direction is same as what is passed in to the
     @Test
     fun testOriginalDirection() {
-        assertEquals(true,robot.isDirection(Direction.Companion.NORTH))
+        assertEquals(true,robot.isDirection(Direction.Companion.EAST))
     }
 
     //Test 2: Test the robot direction is not facing a different direction to what was passed to it
     @Test
     fun testFalseDirectionReturnsFalse() {
-        assertEquals(false,robot.isDirection(Direction.Companion.EAST))
+        assertEquals(false,robot.isDirection(Direction.Companion.NORTH))
     }
 
     //Test 3: Test the robot direction is correct after turning right
     @Test
     fun testRobotDirectionCorrectAfterTurningRight() {
         robot.move('R')
-        assertEquals(true,robot.isDirection(Direction.Companion.EAST))
+        assertEquals(true,robot.isDirection(Direction.Companion.SOUTH))
     }
 
     //Test 4: Test the robot direction is correct after turning left
     @Test
     fun testRobotDirectionCorrectAfterTurningLeft() {
         robot.move('L')
-        assertEquals(true,robot.isDirection(Direction.Companion.WEST))
+        assertEquals(true,robot.isDirection(Direction.Companion.NORTH))
     }
 
     //Test 5: Test the robot position is correct after moving forward
@@ -134,17 +134,20 @@ class RobotTest {
         val robot2 = Robot(bounds, Position(3,2), Direction.Companion.NORTH)
         val robot3 = Robot(bounds, Position(0,3), Direction.Companion.WEST)
 
-        robot1.move("RFFFFFF")
-
+        robot1.move("RFRFRFRF")
         robot2.move("FRRFLLFFRRFLL")
-
         robot3.move("LLFFFLFLFL")
 
+        println("robot1 position is ${robot1.position}")
         assertEquals(true,robot1.isPosition(1, 1))
         assertEquals(true,robot1.isDirection(Direction.Companion.EAST))
+
+        println("robot2 position is ${robot2.position}")
         assertEquals(true,robot2.isPosition(3, 3))
         assertEquals(true,robot2.isDirection(Direction.Companion.NORTH))
         assertEquals(true,robot2.isLost())
+
+        println("robot3 position is ${robot3.position}")
         assertEquals(true,robot3.isPosition(2, 3))
         assertEquals(true,robot3.isDirection(Direction.Companion.SOUTH))
 

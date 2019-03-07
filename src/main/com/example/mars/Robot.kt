@@ -2,7 +2,9 @@ package main.com.example.mars
 
 class Robot(private val bounds: Bounds, val position: Position, private var direction: Direction) {
 
-    private var lost = false
+    private lateinit var last_known_position : Position
+    private lateinit var last_known_direction : Direction
+    var lost = false
 
     fun isDirection(direction: Direction): Boolean {
         return this.direction == direction
@@ -43,8 +45,9 @@ class Robot(private val bounds: Bounds, val position: Position, private var dire
             }
             else
             {
-                lost = true
+                if(LostRobots.noScentsFound(this))lost = true
                 this.position.xCoordinate = Bounds.LOWER_LIMIT
+                LostRobots.lostRobots.add(last_known_position)
             }
         }
         else if (direction === Direction.EAST)
@@ -54,18 +57,21 @@ class Robot(private val bounds: Bounds, val position: Position, private var dire
             }
             else
             {
-                lost = true
+                if(LostRobots.noScentsFound(this))lost = true
                 this.position.xCoordinate = bounds.xUpperLimit()
+                LostRobots.lostRobots.add(last_known_position)
             }
         }
+
         else if (direction === Direction.NORTH){
             if (bounds.lessThanYUpperLimit(position.yCoordinate)) {
                 this.position.yCoordinate++
             }
             else
             {
-                lost = true
+                if(LostRobots.noScentsFound(this))lost = true
                 this.position.yCoordinate = bounds.yUpperLimit()
+                LostRobots.lostRobots.add(last_known_position)
             }
         }
         else
@@ -75,13 +81,24 @@ class Robot(private val bounds: Bounds, val position: Position, private var dire
             }
             else
             {
-                lost = true
+                if(LostRobots.noScentsFound(this))lost = true
                 this.position.yCoordinate = Bounds.LOWER_LIMIT
+                LostRobots.lostRobots.add(last_known_position)
             }
         }
+
+
+        last_known_position = Position(this.position.xCoordinate,this.position.yCoordinate)
+        last_known_direction = this.direction
     }
+
 
     fun isPosition(xPosition: Int, yPosition: Int): Boolean {
         return position.xCoordinate == xPosition && position.yCoordinate == yPosition
+    }
+
+    fun isLost(): Boolean
+    {
+        return lost
     }
 }

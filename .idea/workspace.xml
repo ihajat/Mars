@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="554810dd-0c9f-4908-b7df-3a1f11afe1a5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/example/mars/Bounds.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/example/mars/Bounds.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/example/mars/Direction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/example/mars/Direction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/example/mars/Robot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/example/mars/Robot.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/example/mars/BoundsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/example/mars/BoundsTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/example/mars/DirectionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/example/mars/DirectionTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/example/mars/RobotTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/example/mars/RobotTest.kt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RobotTest.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/example/mars/RobotTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="138" column="14" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Position.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/example/mars/Position.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectionTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/example/mars/DirectionTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-94">
+              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoundsTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/example/mars/BoundsTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+              <folding>
+                <element signature="e#31#165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bounds.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/example/mars/Bounds.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Robot.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/example/mars/Robot.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LostRobots.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/example/mars/LostRobots.kt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Direction.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/example/mars/Direction.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>).isTrue()</find>
+      <find>xUpperLimit</find>
+      <find>M</find>
+      <find>move_left_following_compass_expectations</find>
+      <find>rover</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>F</replace>
+      <replace>robot</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/rxjavabasics" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/rxjavabasics/rxjavabasics" value="PREVIEW" />
+        <entry key="$USER_HOME$/Flutter/quiz" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../kata-mars-rover-kotlin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../mars-rover" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../mars-rover-kata-java" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Bounds.kt" />
+        <option value="$PROJECT_DIR$/src/Direction.kt" />
+        <option value="$PROJECT_DIR$/src/Position.kt" />
+        <option value="$PROJECT_DIR$/src/Robot.kt" />
+        <option value="$PROJECT_DIR$/src/main/com/example/mars/RobotTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/example/mars/RobotTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/com/example/mars/RobotTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/src/main/com/example/mars/BoundsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/example/mars/BoundsTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/com/example/mars/DirectionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/example/mars/DirectionTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/com/example/mars/LostRobots.kt" />
+        <option value="$PROJECT_DIR$/src/main/com/example/mars/Position.kt" />
+        <option value="$PROJECT_DIR$/src/test/com/example/mars/DirectionTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/com/example/mars/Direction.kt" />
+        <option value="$PROJECT_DIR$/src/test/com/example/mars/BoundsTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/com/example/mars/Bounds.kt" />
+        <option value="$PROJECT_DIR$/src/main/com/example/mars/Robot.kt" />
+        <option value="$PROJECT_DIR$/src/test/com/example/mars/RobotTest.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="100" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Mars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mars" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mars" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mars" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mars" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="main.com.example.mars" />
+      <recent name="test.com.example.mars" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="test.com.example.mars" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="main.com.example.mars" />
+      <recent name="test.com.example.mars" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Owner\Kotlin\mars\Mars4\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RobotTest">
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main.com.example.mars.RobotKt" />
+      <module name="Mars" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="RobotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.example.mars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.com.example.mars" />
+      <option name="MAIN_CLASS_NAME" value="test.com.example.mars.RobotTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RobotTest.tesRobotChecksForPreviousLostRobots" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.example.mars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.com.example.mars" />
+      <option name="MAIN_CLASS_NAME" value="test.com.example.mars.RobotTest" />
+      <option name="METHOD_NAME" value="tesRobotChecksForPreviousLostRobots" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RobotTest.testFalseDirectionReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.example.mars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.com.example.mars" />
+      <option name="MAIN_CLASS_NAME" value="test.com.example.mars.RobotTest" />
+      <option name="METHOD_NAME" value="testFalseDirectionReturnsFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RobotTest.testRobotDirectionCorrectAfterTurningLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.example.mars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.com.example.mars" />
+      <option name="MAIN_CLASS_NAME" value="test.com.example.mars.RobotTest" />
+      <option name="METHOD_NAME" value="testRobotDirectionCorrectAfterTurningLeft" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RobotTest.testRobotDirectionCorrectAfterTurningRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.example.mars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.com.example.mars" />
+      <option name="MAIN_CLASS_NAME" value="test.com.example.mars.RobotTest" />
+      <option name="METHOD_NAME" value="testRobotDirectionCorrectAfterTurningRight" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="JUnit.RobotTest.tesRobotChecksForPreviousLostRobots" />
+      <item itemvalue="JUnit.RobotTest" />
+      <item itemvalue="JUnit.RobotTest.testRobotDirectionCorrectAfterTurningRight" />
+      <item itemvalue="JUnit.RobotTest.testRobotDirectionCorrectAfterTurningLeft" />
+      <item itemvalue="JUnit.RobotTest.testFalseDirectionReturnsFalse" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RobotTest" />
+        <item itemvalue="JUnit.RobotTest.tesRobotChecksForPreviousLostRobots" />
+        <item itemvalue="JUnit.RobotTest.testFalseDirectionReturnsFalse" />
+        <item itemvalue="JUnit.RobotTest.testRobotDirectionCorrectAfterTurningLeft" />
+        <item itemvalue="JUnit.RobotTest.testRobotDirectionCorrectAfterTurningRight" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="554810dd-0c9f-4908-b7df-3a1f11afe1a5" name="Default" comment="" />
+      <created>1551958588698</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551958588698</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RobotTest_tesRobotChecksForPreviousLostRobots - 2019.03.07 at 18h 52m 43s.xml">
+      <configuration name="RobotTest.tesRobotChecksForPreviousLostRobots" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RobotTest_tesRobotChecksForPreviousLostRobots - 2019.03.07 at 18h 53m 04s.xml">
+      <configuration name="RobotTest.tesRobotChecksForPreviousLostRobots" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RobotTest_tesRobotChecksForPreviousLostRobots - 2019.03.07 at 18h 53m 42s.xml">
+      <configuration name="RobotTest.tesRobotChecksForPreviousLostRobots" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RobotTest_tesRobotChecksForPreviousLostRobots - 2019.03.07 at 18h 54m 50s.xml">
+      <configuration name="RobotTest.tesRobotChecksForPreviousLostRobots" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RobotTest - 2019.03.07 at 18h 55m 14s.xml">
+      <configuration name="RobotTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RobotTest_testRobotDirectionCorrectAfterTurningRight - 2019.03.07 at 18h 55m 46s.xml">
+      <configuration name="RobotTest.testRobotDirectionCorrectAfterTurningRight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RobotTest_testRobotDirectionCorrectAfterTurningLeft - 2019.03.07 at 18h 55m 56s.xml">
+      <configuration name="RobotTest.testRobotDirectionCorrectAfterTurningLeft" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RobotTest - 2019.03.07 at 18h 56m 08s.xml">
+      <configuration name="RobotTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RobotTest_testFalseDirectionReturnsFalse - 2019.03.07 at 18h 56m 21s.xml">
+      <configuration name="RobotTest.testFalseDirectionReturnsFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RobotTest - 2019.03.07 at 18h 56m 26s.xml">
+      <configuration name="RobotTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32985657" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.357236" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.39504564" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19375" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3898305" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="40" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="last_known_position" />
+        <watch expression="counter" />
+        <watch expression="position" />
+        <watch expression="lost" />
+        <watch expression="direction" />
+        <watch expression="limit" />
+        <watch expression="lostRobots" />
+        <watch expression="robot" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/com/example/mars/RobotTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/example/mars/Robot.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Robot.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/example/mars/RobotTest.kt" />
+    <entry file="file://$PROJECT_DIR$/settings.gradle" />
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/example/mars/Scent.kt" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mars.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/example/mars/Direction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/example/mars/Position.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/example/mars/Bounds.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/example/mars/DirectionTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/example/mars/BoundsTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="e#31#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/example/mars/LostRobots.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/example/mars/Robot.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/example/mars/RobotTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="138" column="14" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Mars4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>KotlinJavaRuntime</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
