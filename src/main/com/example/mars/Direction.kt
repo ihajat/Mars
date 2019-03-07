@@ -20,4 +20,14 @@ data class Direction(private val direction: String) {
             else -> throw RuntimeException(INVALID_DIRECTION)
         }
     }
+
+    fun turnLeft(): Direction {
+        when (direction) {
+            "N" -> return WEST
+            "W" -> return SOUTH
+            "S" -> return EAST
+            "E" -> return NORTH
+            else -> throw RuntimeException(INVALID_DIRECTION)
+        }
+    }
 }
