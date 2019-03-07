@@ -11,9 +11,13 @@ class BoundsTest {
 
     //Test 1: Test the Bounds, independently of the robot , to test the X upper limit
     @Test
-    fun return_true_on_IsInsideYouXUpperLimit() {
-        assertEquals(true,bounds.withinXUpperLimit(2))
+    fun return_true_on_IsInsideXUpperLimit() {
+        assertEquals(true,bounds.lessThanXUpperLimit(1))
     }
 
-
+    //Test 2: Test the Bounds, independently of the robot , to test the X upper limit
+    @Test
+    fun return_true_on_IsNotInsideXUpperLimit() {
+        assertEquals(false,bounds.lessThanXUpperLimit(2))
+    }
 }
