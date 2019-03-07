@@ -52,4 +52,21 @@ class RobotTest {
         robot.move('F')
         assertEquals(false,robot.isPosition(1, 1))
     }
+
+    //Test 7: Test the robot position is correct after turning left and moving forward
+    // By passing the combination of moves separately
+    @Test
+    fun testRobotPositionCorrectAfterTurningRightAndMovingForwardSeparately() {
+        robot.move('R')
+        robot.move('F')
+        assertEquals(true,robot.isPosition(1, 0))
+    }
+
+    //Test 8: Test the robot position is correct after turning left and moving forward
+    // By passing the combination of moves in one call
+    @Test
+    fun testRobotPositionCorrectAfterTurningRightAndMovingForwardTogether() {
+        robot.move("RF")
+        assertEquals(true,robot.isPosition(1, 0))
+    }
 }
