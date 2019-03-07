@@ -5,4 +5,7 @@ class Bounds(private val limit: Position) {
         return xCoordinate < limit.xCoordinate
     }
 
+    fun lessThanYUpperLimit(yCoordinate: Int): Boolean {
+        return yCoordinate < limit.yCoordinate
+    }
 }
