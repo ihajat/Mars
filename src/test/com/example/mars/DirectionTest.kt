@@ -21,4 +21,13 @@ class DirectionTest {
         assertEquals(actualDirection.equals(expectedDirection),true)
     }
 
+    //Test 2: Test the direction independently of the robot , to test the direction turn : Left
+    @Test
+    fun testLeftTurnFromNorthToWest() {
+        val direction = Direction("N")
+        val expectedDirection = Direction("W")
+        val actualDirection: Direction = direction.turnLeft()
+        assertEquals(actualDirection.equals(expectedDirection),true)
+    }
+
 }
