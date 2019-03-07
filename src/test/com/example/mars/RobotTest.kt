@@ -44,4 +44,12 @@ class RobotTest {
         robot.move('F')
         assertEquals(true,robot.isPosition(2, 1))
     }
+
+    //Test 6: Test the robot position is incorrect after moving forward
+    @Test
+    fun testRobotPositionIncorrectAfterMovingForward() {
+
+        robot.move('F')
+        assertEquals(false,robot.isPosition(1, 1))
+    }
 }
