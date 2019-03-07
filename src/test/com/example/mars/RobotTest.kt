@@ -34,4 +34,12 @@ class RobotTest {
         robot.move('L')
         assertEquals(true,robot.isDirection(Direction.Companion.WEST))
     }
+
+    //Test 5: Test the robot position is correct after moving forward
+    @Test
+    fun testRobotPositionCorrectAfterMovingForward() {
+        val robot = Robot(Position(defaultXCoordinate, defaultYCoordinate), Direction.Companion.EAST)
+        robot.move("F")
+        assertEquals(true,robot.isPosition(3, 2))
+    }
 }
