@@ -27,4 +27,11 @@ class RobotTest {
         robot.move('R')
         assertEquals(true,robot.isDirection(Direction.Companion.EAST))
     }
+
+    //Test 4: Test the robot direction is correct after turning left
+    @Test
+    fun testRobotDirectionCorrectAfterTurningLeft() {
+        robot.move('L')
+        assertEquals(true,robot.isDirection(Direction.Companion.WEST))
+    }
 }
