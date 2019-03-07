@@ -10,10 +10,17 @@ class Robot(private var direction: Direction) {
             'R' -> {
                 moveRight()
             }
+            'L' -> {
+                moveLeft()
+            }
         }
     }
 
     private fun moveRight() {
         direction = direction.turnRight()
+    }
+
+    private fun moveLeft() {
+        direction = direction.turnLeft()
     }
 }
