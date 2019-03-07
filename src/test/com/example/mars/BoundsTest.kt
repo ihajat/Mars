@@ -32,4 +32,17 @@ class BoundsTest {
     fun returnTrueNotInsideYUpperLimit() {
         assertEquals(false,bounds.lessThanYUpperLimit(2))
     }
+
+    //Test 5: Test the Bounds, independently of the robot , to test the X lower limit
+    @Test
+    fun returnTrueInsideXLowerLimit() {
+        assertEquals(true,bounds.greaterThanXLowerLimit(1))
+    }
+
+    //Test 6: Test the Bounds, independently of the robot , to test the X lower limit
+    @Test
+    fun returnTrueNotInsideXLowerLimit() {
+        assertEquals(false,bounds.greaterThanXLowerLimit(0))
+    }
+
 }
