@@ -45,4 +45,15 @@ class BoundsTest {
         assertEquals(false,bounds.greaterThanXLowerLimit(0))
     }
 
+    //Test 7: Test the Bounds, independently of the robot , to test the Y lower limit
+    @Test
+    fun returnTrueInsideYLowerLimit() {
+        assertEquals(true,bounds.greaterThanYLowerLimit(1))
+    }
+
+    //Test 8: Test the Bounds, independently of the robot , to test the Y lower limit
+    @Test
+    fun returnTrueNotInsideYLowerLimit() {
+        assertEquals(false,bounds.greaterThanYLowerLimit(0))
+    }
 }
