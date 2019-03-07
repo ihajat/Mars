@@ -59,7 +59,14 @@ class Robot(private val bounds: Bounds, val position: Position, private var dire
             }
         }
         else if (direction === Direction.NORTH){
+            if (bounds.lessThanYUpperLimit(position.yCoordinate)) {
                 this.position.yCoordinate++
+            }
+            else
+            {
+                lost = true
+                this.position.yCoordinate = bounds.yUpperLimit()
+            }
         }
         else
         {

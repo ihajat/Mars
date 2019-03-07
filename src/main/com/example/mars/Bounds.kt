@@ -21,6 +21,10 @@ class Bounds(private val limit: Position) {
         return limit.xCoordinate
     }
 
+    fun yUpperLimit(): Int {
+        return limit.yCoordinate
+    }
+
     companion object {
         val LOWER_LIMIT = 0
     }
