@@ -8,4 +8,12 @@ class Bounds(private val limit: Position) {
     fun lessThanYUpperLimit(yCoordinate: Int): Boolean {
         return yCoordinate < limit.yCoordinate
     }
+
+    fun greaterThanXLowerLimit(xCoordinate: Int): Boolean {
+        return xCoordinate > LOWER_LIMIT
+    }
+
+    companion object {
+        val LOWER_LIMIT = 0
+    }
 }
