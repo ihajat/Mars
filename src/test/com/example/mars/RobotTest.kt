@@ -109,4 +109,16 @@ class RobotTest {
         println(robot.position)
         assertEquals(true,robot.isPosition(1, 3))
     }
+
+    //Test 12: Test the robot doesn't move beyond South Bound
+    @Test
+    fun tesRobotDoeNotMoveBeyondSouthBound() {
+        //Given the Robot is Facing East, starting at co-ordinates ( 1, 1 )
+
+        //Then Turn North And Move forward beyond the Southern Boundary
+        robot.move("RFFFFFF")
+
+        println(robot.position)
+        assertEquals(true,robot.isPosition(1, 0))
+    }
 }
