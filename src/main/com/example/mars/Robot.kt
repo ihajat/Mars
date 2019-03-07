@@ -70,7 +70,14 @@ class Robot(private val bounds: Bounds, val position: Position, private var dire
         }
         else
         {
+            if (bounds.greaterThanYLowerLimit(position.yCoordinate)) {
                 this.position.yCoordinate--
+            }
+            else
+            {
+                lost = true
+                this.position.yCoordinate = Bounds.LOWER_LIMIT
+            }
         }
     }
 
