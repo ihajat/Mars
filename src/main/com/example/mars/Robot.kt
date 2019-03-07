@@ -1,6 +1,6 @@
 package main.com.example.mars
 
-class Robot(private var direction: Direction) {
+class Robot(val position: Position, private var direction: Direction) {
     fun isDirection(direction: Direction): Boolean {
         return this.direction == direction
     }
@@ -13,6 +13,9 @@ class Robot(private var direction: Direction) {
             'L' -> {
                 moveLeft()
             }
+            'F' -> {
+                moveForward()
+            }
         }
     }
 
@@ -22,5 +25,27 @@ class Robot(private var direction: Direction) {
 
     private fun moveLeft() {
         direction = direction.turnLeft()
+    }
+
+    private fun moveForward() {
+        if (direction === Direction.WEST)
+        {
+                this.position.xCoordinate--
+        }
+        else if (direction === Direction.EAST)
+        {
+                this.position.xCoordinate++
+        }
+        else if (direction === Direction.NORTH){
+                this.position.yCoordinate++
+        }
+        else
+        {
+                this.position.yCoordinate--
+        }
+    }
+
+    fun isPosition(xPosition: Int, yPosition: Int): Boolean {
+        return position.xCoordinate == xPosition && position.yCoordinate == yPosition
     }
 }

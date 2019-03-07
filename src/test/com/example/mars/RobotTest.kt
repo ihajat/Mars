@@ -1,13 +1,15 @@
 package test.com.example.mars
 
 import main.com.example.mars.Direction
+import main.com.example.mars.Position
 import main.com.example.mars.Robot
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class RobotTest {
-
-    private val robot = Robot( Direction.Companion.NORTH)
+    private val defaultXCoordinate = 1
+    private val defaultYCoordinate = 1
+    private val robot = Robot(Position(defaultXCoordinate, defaultYCoordinate), Direction.Companion.EAST)
 
     //Test 1: Test the robot direction is same as what is passed in to the
     @Test
@@ -38,8 +40,8 @@ class RobotTest {
     //Test 5: Test the robot position is correct after moving forward
     @Test
     fun testRobotPositionCorrectAfterMovingForward() {
-        val robot = Robot(Position(defaultXCoordinate, defaultYCoordinate), Direction.Companion.EAST)
-        robot.move("F")
-        assertEquals(true,robot.isPosition(3, 2))
+
+        robot.move('F')
+        assertEquals(true,robot.isPosition(2, 1))
     }
 }
