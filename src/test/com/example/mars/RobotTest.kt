@@ -13,8 +13,8 @@ class RobotTest {
     private val bounds = Bounds(Position(xUpperLimit,yUpperLimit))
     private val defaultXCoordinate = 1
     private val defaultYCoordinate = 1
-    private val robot = Robot(Position(defaultXCoordinate, defaultYCoordinate), Direction.Companion.EAST)
-
+    private val robot = Robot(bounds, Position(defaultXCoordinate, defaultYCoordinate), Direction.Companion.EAST)
+    
     //Test 1: Test the robot direction is same as what is passed in to the
     @Test
     fun testOriginalDirection() {
@@ -77,8 +77,13 @@ class RobotTest {
     //Test 9: Test the robot doesn't move beyond West Bound
     @Test
     fun tesRobotDoeNotMoveBeyondWestBound() {
-        robot.move("FFFFFF")
-        assertEquals(true,robot.isPosition(5, 1))
+        //Given the Robot is Facing East
+
+        //Then Turn West And Move forward beyond the Western Boundary
+        robot.move("RRFFFFFF")
+
+        println(robot.position)
+        assertEquals(true,robot.isPosition(0, 1))
     }
 
 }

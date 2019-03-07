@@ -1,6 +1,9 @@
 package main.com.example.mars
 
-class Robot(val position: Position, private var direction: Direction) {
+class Robot(private val bounds: Bounds, val position: Position, private var direction: Direction) {
+
+    private var lost = false
+
     fun isDirection(direction: Direction): Boolean {
         return this.direction == direction
     }
@@ -13,7 +16,7 @@ class Robot(val position: Position, private var direction: Direction) {
                 moveLeft()
             }
             'F' -> {
-                moveForward()
+                if(!lost)moveForward()
             }
         }
     }
@@ -35,7 +38,14 @@ class Robot(val position: Position, private var direction: Direction) {
     private fun moveForward() {
         if (direction === Direction.WEST)
         {
+            if (bounds.greaterThanXLowerLimit(position.xCoordinate)) {
                 this.position.xCoordinate--
+            }
+            else
+            {
+                lost = true
+                this.position.xCoordinate = Bounds.LOWER_LIMIT
+            }
         }
         else if (direction === Direction.EAST)
         {
