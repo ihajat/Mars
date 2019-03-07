@@ -1,5 +1,6 @@
 package test.com.example.mars
 
+import main.com.example.mars.Direction
 import main.com.example.mars.Robot
 import org.junit.Assert.assertEquals
 import org.junit.Test
