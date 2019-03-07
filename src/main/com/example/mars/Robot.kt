@@ -4,7 +4,6 @@ class Robot(val position: Position, private var direction: Direction) {
     fun isDirection(direction: Direction): Boolean {
         return this.direction == direction
     }
-
     fun move(command: Char) {
         when (command) {
             'R' -> {
@@ -18,6 +17,12 @@ class Robot(val position: Position, private var direction: Direction) {
             }
         }
     }
+    fun move(moves: String) {
+        for (code in moves.toCharArray()) {
+            move(code)
+        }
+    }
+
 
     private fun moveRight() {
         direction = direction.turnRight()
