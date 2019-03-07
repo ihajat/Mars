@@ -15,4 +15,8 @@ class RobotTest {
         assertEquals(true,robot.isDirection(Direction.Companion.NORTH))
     }
 
+    @Test
+    fun testFalseDirectionReturnsFalse() {
+        assertEquals(false,robot.isDirection(Direction.Companion.EAST))
+    }
 }
