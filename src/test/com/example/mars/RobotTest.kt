@@ -1,5 +1,6 @@
 package test.com.example.mars
 
+import main.com.example.mars.Bounds
 import main.com.example.mars.Direction
 import main.com.example.mars.Position
 import main.com.example.mars.Robot
@@ -7,6 +8,9 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class RobotTest {
+    private val xUpperLimit = 5
+    private val yUpperLimit = 3
+    private val bounds = Bounds(Position(xUpperLimit,yUpperLimit))
     private val defaultXCoordinate = 1
     private val defaultYCoordinate = 1
     private val robot = Robot(Position(defaultXCoordinate, defaultYCoordinate), Direction.Companion.EAST)
@@ -69,4 +73,12 @@ class RobotTest {
         robot.move("RF")
         assertEquals(true,robot.isPosition(1, 0))
     }
+
+    //Test 9: Test the robot doesn't move beyond West Bound
+    @Test
+    fun tesRobotDoeNotMoveBeyondWestBound() {
+        robot.move("FFFFFF")
+        assertEquals(true,robot.isPosition(5, 1))
+    }
+
 }
